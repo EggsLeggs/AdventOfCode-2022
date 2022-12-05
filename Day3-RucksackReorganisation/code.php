@@ -3,7 +3,7 @@
 <body>
 <?php
 $matchingLetters = array();
-$lines = explode("\n", file_get_contents('Day3-ComingSoon/input.txt'));
+$lines = explode("\n", file_get_contents('Day3-RucksackReorganisation/input.txt'));
 // Part 1
 foreach ($lines as $line) {
     //split string into two halves
