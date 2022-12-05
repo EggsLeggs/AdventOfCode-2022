@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
 <?php
 $matchingLetters = array();
 $lines = explode("\n", file_get_contents('Day3-RucksackReorganisation/input.txt'));
@@ -51,7 +48,3 @@ foreach ($matchingLetters2 as $letter) {
     }
 }
 echo "Part two:" . array_sum($numbers2);
-?>
- 
-</body>
-</html>
