@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <body>
-
 <?php
 $matchingLetters = array();
 $lines = explode("\n", file_get_contents('Day3-ComingSoon/input.txt'));
